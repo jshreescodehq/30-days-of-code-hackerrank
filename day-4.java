@@ -10,11 +10,9 @@ In addition writen the following instance methods:
 
 import java.io.*;
 import java.util.*;
-
 public class Person {
     private int age;	
-  
-	public Person(int initialAge) {
+    public Person(int initialAge) {
      if(initialAge>0){
           age=initialAge;
       }
@@ -40,7 +38,6 @@ public class Person {
 	public void yearPasses() {
   		age++;
 	}
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();
