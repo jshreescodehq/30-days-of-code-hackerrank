@@ -8,12 +8,12 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         int T=sc.nextInt();
         sc.nextLine();
-            for(int i=0;i<T;i++){
+            for(int i=0 ; i<T ; i++){
                 String S =sc.nextLine();
                 char[] ch = S.toCharArray();
                 String eve = "";
                 String odd = ""; 
-            for(int j=0;j<ch.length;j++){
+            for(int j=0 ; j<ch.length ; j++){
                 if(j%2==0){
                     eve += ch[j];
                 }
