@@ -5,7 +5,7 @@ A Student class constructor, which has 4 parameters:
 2. A string: lastName.
 3. An integer: idNumber.
 4. An integer array (or vector) of test scores: scores .
-5. A char calculate() method that calculates a Student object's average and returns the grade character representative of their calculated average:*/
+5. A char calculate() method that calculates a Student object's average and returns the grade character representative of their calculated average */
 import java.util.*;
 class Person {
 	protected String firstName;
